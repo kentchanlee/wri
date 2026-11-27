@@ -1,0 +1,18 @@
+Extract nyo yung file
+Copy nyo yung "cedar-wellness-hub" na folder sa `C:\xampp\htdocs\` (PC)
+Start nyo yung **Apache** and **MySQL** sa XAMPP Control Panel.
+Open nyo tong link nato (`http://localhost/phpmyadmin`)
+- Punta kayo sa Import tab, choose file, hanapin ito sa `database/cedar_wellness.sql` tapos click "Go" (if may kapangalan burahin yung dati)
+Kapag okay na, punta kayo browser tapos visit nyo ito `http://localhost/cedar-wellness-hub/setup_seed.php`
+"mag kicreate ito ng default accounts"
+Next, go to `http://localhost/cedar-wellness-hub/` and log in.
+
+Employee ID or Email: superadmin
+Password: Cedar@123 (default password)
+
+
+Explore nyo itong system sabihin kung may bugs para mafix (try nyo din ifix, basta di magugulo system)
+Insert kayo madami employee for testing ng mga data
+Yung design kayo na bahala kung babaguhin nyo pagusapan sa GC.
+
+-Christian:)
